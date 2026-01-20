@@ -10,7 +10,7 @@ import Overiew from "@/components/Overview";
 import Theme from "@/components/Theme";
 import Gallery from "@/components/Gallery";
 import Statistics from "@/components/Statistics";
-import Sponsor from "@/components/sponsor";
+import Sponsor from "@/components/Sponsor";
 import { GridScan } from "@/components/Gridscan";
 import Teams from "@/components/Teams";
 
@@ -59,7 +59,7 @@ export default function Home() {
         {/* CTA Button */}
         <div className="absolute z-10 bottom-28">
           <a
-            href="#registerlinkgoogle form"
+            href="https://unstop.com/hackathons/hackoverflow-40-pillai-hoc-college-of-engineering-technology-phcet-maharashtra-1613166"
             className="cta-button"
             style={{
               background: 'rgba(255, 255, 255, 0.05)',
@@ -97,7 +97,7 @@ export default function Home() {
               e.currentTarget.style.borderColor = '#e75829';
             }}
           >
-            <span style={{ position: 'relative', zIndex: 10 }}>Coming Soon</span>
+            <span style={{ position: 'relative', zIndex: 10 }}>Register Now</span>
           </a>
         </div>
 
@@ -121,8 +121,18 @@ export default function Home() {
         <Statistics />
       </section>
 
+      {/* Schedule */}
+      <section id="schedule">
+        <Schedule />
+      </section>
+
       {/* Key Dates */}
       <KeyDates />
+
+      {/* Theme */}
+      <section id="themes">
+        <Theme />
+      </section>
 
       {/* Sponsors */}
       <section id="sponsors">
@@ -132,6 +142,10 @@ export default function Home() {
       {/* FAQ */}
       <FAQ />
 
+      {/* Teams */}
+      <section id="teams">
+        <Teams />
+      </section>
 
       {/* About */}
       <section id="about">
