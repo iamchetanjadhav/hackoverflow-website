@@ -98,7 +98,7 @@ const Special = () => {
           <SectionHeader
             badge="Journey Ahead"
             title="HackOverflow"
-            gradientText="Begins In"
+            gradientText="Dates"
             subtitle="The final countdown to three days of innovation, energy, and impact"
           />
 

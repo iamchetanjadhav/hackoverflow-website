@@ -139,12 +139,14 @@ export default function Home() {
         <Sponsor />
       </section>
 
-      {/* FAQ */}
-      <FAQ />
-
       {/* Teams */}
       <section id="teams">
         <Teams />
+      </section>
+
+      {/* FAQ */}
+      <section id="faq">
+        <FAQ />
       </section>
 
       {/* About */}

@@ -393,14 +393,14 @@ const Themes = () => {
       `}</style>
 
       <section className="themes-section">
-        <div className="decorative-dots-themes">
+        {/* <div className="decorative-dots-themes">
           <div className="dot-themes"></div>
           <div className="dot-themes"></div>
           <div className="dot-themes"></div>
           <div className="dot-themes"></div>
           <div className="dot-themes"></div>
           <div className="dot-themes"></div>
-        </div>
+        </div> */}
 
         <div className="themes-container">
           <div className={`theme-header-anim ${isVisible ? "visible" : ""}`}>
@@ -408,7 +408,7 @@ const Themes = () => {
               badge="Coming Soon"
               title="Hackoverflow"
               gradientText="Theme"
-              subtitle="Get ready to dive into exciting problem statements that will challenge your creativity and technical skills"
+              subtitle="Get ready with your problem statement to challenge your creativity and technical skills"
             />
           </div>
 

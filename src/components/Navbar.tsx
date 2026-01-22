@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import { label } from "three/tsl";
 
 const navLinks = [
   { id: "home", label: "Home" },
