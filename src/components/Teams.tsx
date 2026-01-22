@@ -1,6 +1,5 @@
-import React from "react";
 import SectionHeader from "./SectionHeader";
-import { Linkedin, Twitter, Github } from "lucide-react";
+import { Linkedin, Twitter, Github, Mail } from "lucide-react";
 
 interface TeamMember {
   name: string;
@@ -11,6 +10,7 @@ interface TeamMember {
     linkedin?: string;
     twitter?: string;
     github?: string;
+    email?: string;
   };
 }
 
@@ -21,21 +21,30 @@ export default function Team() {
       role: "Faculty Coordinator",
       image: "/images/Team/Rutvij Mane.jpeg",
       bio: "Academic mentor and technical advisor",
-      socials: { linkedin: "" },
+      socials: {
+        linkedin: " https://www.linkedin.com/in/rutvij-mahendra-mane-0500621b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "rutvijmane@mes.ac.in"
+      },
     },
     {
       name: "Dr. Rajashree Gadhave",
       role: "Head of Computer Department",
       image: "/images/Team/Rajashree Gadhave.jpeg",
       bio: "Guiding Hackoverflow with vision & experience",
-      socials: { linkedin: "" },
+      socials: {
+        linkedin: "",
+        email: "rgadhave@mes.ac.in"
+      },
     },
     {
       name: "Prof. Pradnya Patil",
       role: "Faculty Coordinator",
       image: "/images/Team/Pradnya Patil.jpeg",
       bio: "Driving innovation and student collaboration",
-      socials: { linkedin: "" },
+      socials: {
+        linkedin: "",
+        email: "pchavarkar@mes.ac.in"
+      },
     },
   ];
 
@@ -44,7 +53,7 @@ export default function Team() {
       name: "Darin Peringalloor",
       role: "Hackoveflow 4.0 Lead",
       image: "/images/Team/Darin.jpeg",
-      bio: "Product visionary with 15+ years experience",
+      bio: "Driving strategic vision and unified team execution",
       socials: {
         linkedin: " https://www.linkedin.com/in/darin-peringalloor",
         github: "https://github.com/DarinJoy"
@@ -54,7 +63,7 @@ export default function Team() {
       name: "Sampriti Dogra",
       role: "Hackoveflow 4.0 Lead",
       image: "/images/Team/Sampriti Dogra.jpeg",
-      bio: "Systems architect & infra expert",
+      bio: "Aligning diverse teams toward a singular, high-impact goal",
       socials: {
         linkedin: " https://www.linkedin.com/in/sampriti-dogra",
         github: "https://github.com/sampriti-9"
@@ -67,7 +76,7 @@ export default function Team() {
       name: "Parth Bhoir",
       role: "Event Head",
       image: "/images/Team/Parth Bhoir.jpeg",
-      bio: "Building communities and outreach",
+      bio: "Managing logistics and event-day workflow",
       socials: {
         linkedin: "https://in.linkedin.com/in/parth-bhoir-781727289",
         github: "https://github.com/Parthb56"
@@ -77,7 +86,7 @@ export default function Team() {
       name: "Chetan Jadhav",
       role: "Technical Head",
       image: "/images/Team/Chetan Jadhav.jpeg",
-      bio: "Building communities and outreach",
+      bio: "Building digital platforms and stage tech",
       socials: {
         linkedin: "https://www.linkedin.com/in/iamchetanjadhav",
         github: "https://github.com/iamchetanjadhav"
@@ -87,14 +96,14 @@ export default function Team() {
       name: "Rohan Gharat",
       role: "Media Head",
       image: "/images/Team/Rohan Gharat.jpeg",
-      bio: "Scaling startups from zero to hero",
+      bio: "Capturing moments and managing social presence",
       socials: { linkedin: "", github: "" },
     },
     {
       name: "Aarya Karpe",
       role: "Graphics Head",
       image: "/images/Team/Aarya Karpe.png",
-      bio: "0 to millions specialist",
+      bio: "Crafting visual identity and promotional assets",
       socials: {
         linkedin: "linkedin.com/in/aarya-karpe-b88b4b312",
         github: "github.com/aaryakarpe"
@@ -114,7 +123,7 @@ export default function Team() {
       name: "Aayush Gunjal",
       role: "Management Head",
       image: "/images/Team/Aayush Gunjal.jpeg",
-      bio: "Designing intuitive user experiences",
+      bio: "Coordinating participants, judges, and mentors",
       socials: {
         linkedin: "http://linkedin.com/in/aayushgunjal",
         github: "http://github.com/AayushGunjal"
@@ -134,7 +143,7 @@ export default function Team() {
       name: "Richa Shringarpure",
       role: "Documentation Head",
       image: "/images/Team/Richa Shrungarpure.png",
-      bio: "Building communities and outreach",
+      bio: "Handling permissions, letters, and official records",
       socials: {
         linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
         github: "https://github.com/RichaShringarpure"
@@ -144,7 +153,7 @@ export default function Team() {
       name: "Vedanti Patil",
       role: "Decor Head",
       image: "/images/Team/Vedanti Patil.jpeg",
-      bio: "Building communities and outreach",
+      bio: "Designing aesthetics and immersive event environments",
       socials: {
         linkedin: "www.linkedin.com/in/vedanti-patil-2004vp",
         github: "https://github.com/V0630"
@@ -154,7 +163,7 @@ export default function Team() {
       name: "Sharayu Patil",
       role: "Decor Head",
       image: "/images/Team/Sharayu Patil.jpeg",
-      bio: "Building communities and outreach",
+      bio: "Visualizing themes and crafting immersive decor",
       socials: {
         linkedin: "https://www.linkedin.com/in/sharayupatil2624",
         github: "https://github.com/Sharayu2624"
@@ -164,7 +173,7 @@ export default function Team() {
       name: "Chetan Jadhav",
       role: "Publicity Head",
       image: "/images/Team/Chetan Jadhav.jpeg",
-      bio: "Building communities and outreach",
+      bio: "Driving reach and maximizing participation",
       socials: {
         linkedin: "https://www.linkedin.com/in/iamchetanjadhav",
         github: "https://github.com/iamchetanjadhav"
@@ -174,7 +183,7 @@ export default function Team() {
       name: "Aayush Gunjal",
       role: "Publicity Head",
       image: "/images/Team/Aayush Gunjal.jpeg",
-      bio: "Building communities and outreach",
+      bio: "Expanding reach and driving high impact registrations",
       socials: {
         linkedin: "http://linkedin.com/in/aayushgunjal",
         github: "http://github.com/AayushGunjal"
@@ -192,18 +201,30 @@ export default function Team() {
       <p className="team-bio">{member.bio}</p>
       <div className="team-socials">
         {member.socials.linkedin && (
-          <a href={member.socials.linkedin} className="social-link">
+          <a href={member.socials.linkedin}
+            className="social-link">
             <Linkedin size={18} />
           </a>
         )}
         {member.socials.twitter && (
-          <a href={member.socials.twitter} className="social-link">
+          <a href={member.socials.twitter}
+            className="social-link">
             <Twitter size={18} />
           </a>
         )}
         {member.socials.github && (
-          <a href={member.socials.github} className="social-link">
+          <a href={member.socials.github}
+            className="social-link">
             <Github size={18} />
+          </a>
+        )}
+        {member.socials.email && (
+          <a
+            href={`mailto:${member.socials.email}`}
+            className="social-link"
+            aria-label={`Email ${member.name}`}
+          >
+            <Mail size={18} />
           </a>
         )}
       </div>
@@ -223,7 +244,6 @@ export default function Team() {
           margin: 0 auto;
           padding: 0 2rem;
         }
-
 
 
         /* Section Head */
@@ -330,6 +350,7 @@ export default function Team() {
           display: flex;
           gap: 0.8rem;
           padding-top: 0.8rem;
+          margin-top: 0.8rem;
           border-top: 1px solid rgba(255,255,255,0.1);
         }
 
