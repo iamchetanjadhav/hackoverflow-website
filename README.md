@@ -307,8 +307,8 @@ We welcome contributions! To contribute:
 
 📧 Email: [admin@hackoverflow.tech](mailto:admin@hackoverflow.tech)  
 🌐 Website: [https://hackoverflow4.tech/](https://hackoverflow4.tech/)  
-🐦 Twitter: [@HackOverflow](#)  
-📷 Instagram: [@hackoverflow](#)  
+💬 Discord: [Join our community](https://discord.gg/Pha3qubw)  
+📷 Instagram: [@hackoverflow.tech](https://www.instagram.com/hackoverflow.tech)  
 
 For technical issues or feature requests, please open an issue on GitHub.
 
